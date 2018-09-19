@@ -192,3 +192,38 @@ flex-direction: column;
     font-size: 18px;
     text-transform: uppercase;  
 }
+
+.we-are-the-best .the-best-items{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    align-items: center;
+    
+}
+
+.we-are-the-best .the-best-items .the-best-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    
+}
+.we-are-the-best .the-best-items .the-best-item .the-best-text{
+    font-family: 'OpenSans';
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.we-are-the-best .the-best-items .the-best-item .item-font{
+    margin-bottom: 107px;
+   font-size: 46px;
+    color: #000;
+    
+
+}
+
+.we-are-the-best .the-best-items .the-best-item .the-best-paragraph{
+    color: #666;
+    font-size: 13px;
+    line-height: 23px;
+}
