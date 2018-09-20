@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext');
 
 html,
 body,
@@ -225,5 +226,58 @@ flex-direction: column;
 .we-are-the-best .the-best-items .the-best-item .the-best-paragraph{
     color: #666;
     font-size: 13px;
+    line-height: 23px;
+}
+
+.easy-to-acces{
+    background-image: url('../images/easy-to-acces-background.jpg');
+    background-size: cover;
+    height: 666px;
+}
+.easy-to-acces .easy-to-acces-wrapper{
+    display: flex;
+}
+
+.easy-to-acces .left-smartfon{
+    width: 16.666%
+}
+.easy-to-acces .right-text{
+    padding-left: 60px;
+    width: 83.333%
+}
+
+.easy-to-acces .right-text .right-text-heading{
+    font-size: 49px;
+    color: #fff;
+}
+
+.easy-to-acces .left-smartfon img{
+    
+    
+}
+
+.our-services .our-services-heading .our-services-heading-h2, .our-services .our-services-heading .our-services-heading-paragraph {
+    text-align: center;
+}
+.our-services .our-services-items{
+    display: flex;
+    justify-content: center;
+}
+.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-text{
+    padding: 0 20px;
+}
+
+.our-services .our-services-items .our-services-items-left .our-services-item, .our-services .our-services-items .our-services-items-right .our-services-item{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-text .our-services-item-text-paragraph, .our-services .our-services-items .our-services-items-right .our-services-item .our-services-item-text .our-services-item-text-paragraph{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 13px;
+    color: #555;
     line-height: 23px;
 }
