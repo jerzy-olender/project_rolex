@@ -305,6 +305,24 @@ flex-direction: column;
     
 }
 
+.our-services{
+    padding: 108px 0 125px 0;
+}
+
+.our-services .our-services-heading .our-services-heading-h2{
+    font-family: 'OpenSans';
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #444;
+}
+.our-services .our-services-heading .our-services-heading-paragraph {
+    font-family: 'OpenSans';
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 150px;
+}
+
 .our-services .our-services-heading .our-services-heading-h2, .our-services .our-services-heading .our-services-heading-paragraph {
     text-align: center;
 }
@@ -312,20 +330,48 @@ flex-direction: column;
     display: flex;
     justify-content: center;
 }
-.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-text{
-    padding: 0 20px;
+.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-font{
+    width: 83px;
+    margin-right: 20px;
+}
+.our-services .our-services-items .our-services-items-right .our-services-item .our-services-item-font{
+    width: 83px;
+    margin-right: 20px;
 }
 
 .our-services .our-services-items .our-services-items-left .our-services-item, .our-services .our-services-items .our-services-items-right .our-services-item{
     display: flex;
     justify-content: center;
+    margin-bottom: 49px;
 }
 
+
+.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-font:hover .our-services-png , .our-services .our-services-items .our-services-items-right .our-services-item .our-services-item-font:hover .our-services-png{
+   display: none;
+}
+
+.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-font:hover .our-services-png-hover , .our-services .our-services-items .our-services-items-right .our-services-item .our-services-item-font:hover .our-services-png-hover{
+   display: block;
+}
+
+.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-font .our-services-png-hover, .our-services .our-services-items .our-services-items-right .our-services-item .our-services-item-font .our-services-png-hover{
+   display: none;
+}
+
+ 
+.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-text .our-services-item-text-h2, .our-services .our-services-items .our-services-items-right .our-services-item .our-services-item-text .our-services-item-text-h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
 
 
 .our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-text .our-services-item-text-paragraph, .our-services .our-services-items .our-services-items-right .our-services-item .our-services-item-text .our-services-item-text-paragraph{
     font-family: 'Roboto';
-    font-weight: 700;
+   
     font-size: 13px;
     color: #555;
     line-height: 23px;
