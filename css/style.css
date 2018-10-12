@@ -201,9 +201,11 @@ a {
 
 .we-are-the-best .the-best-items {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 100px 0;
     align-items: center;
+    
 
 }
 
@@ -212,6 +214,7 @@ a {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    width: 24%;
 
 
 }
@@ -887,4 +890,22 @@ a {
     text-align: center;
     padding: 35px 0 32px 0;
     background-color: #131313;
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .container{
+       width: 700px;
+    }
+    .top-header{
+        background-position: center;
+    }
+    .top-header .top-text .top-text2{
+        font-size: 81px;
+    }
+    .we-are-the-best .the-best-items .the-best-item{
+        width: 50%;
+    }
+    .we-are-the-best .the-best-items .the-best-item .the-best-paragraph{
+        padding: 0 10px;
+    }
 }
