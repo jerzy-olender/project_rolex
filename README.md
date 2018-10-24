@@ -1,3 +1,3 @@
 # project_rolex
 Project rolex
-live: https://jerzy-olender.github.io/project_rolex/index.html
+live: https://jerzy-olender.github.io/project_rolex/
