@@ -517,6 +517,7 @@ a {
 .why-work-with-us .why-work-with-us-heading .why-work-with-us-heading-h2 {
     font-family: 'OpenSans';
     font-size: 48px;
+    
     color: #444;
     text-transform: uppercase;
     text-align: center;
@@ -536,6 +537,7 @@ a {
 
 .why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items .why-work-with-us-item .text-wrapper .why-work-with-us-item-h2 {
     font-family: 'OpenSans';
+    font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
     color: #fff;
