@@ -189,7 +189,6 @@ a {
 
 .top-header .top-text .top-text3 {
     font-family: 'OpenSans';
-
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
@@ -223,8 +222,6 @@ a {
 }
 
 .we-are-the-best .the-best-items .the-best-item .item-font {
-    font-size: 46px;
-    color: #000;
     width: 145px;
     height: 145px;
     border-radius: 50%;
@@ -323,7 +320,7 @@ a {
     font-family: 'OpenSans';
     font-size: 48px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #444;
 }
 
@@ -331,7 +328,10 @@ a {
     font-family: 'OpenSans';
     font-size: 13px;
     color: #666;
+    line-height: 32px;
     margin-bottom: 150px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #ccc;
 }
 
 .our-services .our-services-heading .our-services-heading-h2,
