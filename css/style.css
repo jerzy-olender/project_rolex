@@ -349,13 +349,10 @@ a {
 }
 
 
-.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-font {}
-
 .our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-text {
     width: calc(100% - 80px);
 }
 
-.our-services .our-services-items .our-services-items-left .our-services-item .our-services-item-font img {}
 
 .our-services .our-services-items .our-services-items-right .our-services-item .our-services-item-font {
     width: 83px;
@@ -708,6 +705,11 @@ a {
 .meet-our-team-footer .meet-our-team-footer-wrapper .meet-our-team-footer-icon .right-icon {
     font-size: 40.08px;
     color: #fff;
+}
+
+.meet-our-team-footer .meet-our-team-footer-wrapper .meet-our-team-footer-icon .right-icon:hover {
+    color: #000;
+    cursor: pointer;
 }
 
 .footer {
