@@ -549,10 +549,15 @@ a {
 
 }
 
+.why-work-with-us .why-work-with-us-wrapper {
+    margin: 0 10px;
+}
 .why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items {
     display: flex;
     align-content: space-around;
     flex-wrap: wrap;
+    margin-left: -10px;
+    width: calc(100% + 20px);
 }
 
 .why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items .why-work-with-us-item {
@@ -562,8 +567,8 @@ a {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    width: 31%;
-    margin: 10px;
+    width: calc((100% / 3) - 20px);
+    margin: 10px 10px;
     background-color: #2d2d2d;
 }
 
