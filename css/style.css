@@ -533,7 +533,7 @@ a {
     margin-bottom: 75px;
 }
 
-.why-work-with-us .why-work-with-us-items .why-work-with-us-item .why-work-with-us-item-h2 {
+.why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items .why-work-with-us-item .text-wrapper .why-work-with-us-item-h2 {
     font-family: 'OpenSans';
     font-size: 18px;
     text-transform: uppercase;
@@ -541,7 +541,7 @@ a {
     margin-bottom: 34px;
 }
 
-.why-work-with-us .why-work-with-us-items .why-work-with-us-item .why-work-with-us-item-paragraph {
+.why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items .why-work-with-us-item .text-wrapper .why-work-with-us-item-paragraph {
     font-family: 'OpenSans';
     font-size: 13px;
     line-height: 22px;
@@ -549,17 +549,17 @@ a {
 
 }
 
-.why-work-with-us .why-work-with-us-items {
+.why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items {
     display: flex;
     align-content: space-around;
     flex-wrap: wrap;
 }
 
-.why-work-with-us .why-work-with-us-items .why-work-with-us-item {
+.why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items .why-work-with-us-item {
     padding: 48px 30px 50px 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     width: 31%;
@@ -567,11 +567,11 @@ a {
     background-color: #2d2d2d;
 }
 
-.why-work-with-us .why-work-with-us-items .why-work-with-us-item .why-work-with-us-item-img {
+.why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items .why-work-with-us-item .why-work-with-us-item-img {
     margin-bottom: 55px;
 }
 
-.why-work-with-us .why-work-with-us-items .why-work-with-us-item:hover {
+.why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items .why-work-with-us-item:hover {
 
     background-color: #e55454;
 }
