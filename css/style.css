@@ -683,7 +683,6 @@ a {
     color: #fff;
     text-align: left;
     margin-right: 108px;
-    padding-left: 10px;
 }
 
 .meet-our-team-footer .meet-our-team-footer-wrapper .meet-our-team-footer-icon .right-icon {
@@ -881,6 +880,28 @@ a {
     background-color: #131313;
 }
 
+@media(max-width: 1240px){
+    .easy-to-acces .left-smartfon img {
+        width: 200px;
+        left: -4px;
+    }
+}
+
+@media(max-width: 991px){
+    .we-are-the-best .the-best-items .the-best-item {
+        width: 47%;
+        padding: 20px 10px;
+    }
+
+    .features .features-bottom-picture-box .features-item{
+        display: none;
+    }
+
+    .features .features-bottom-picture-box .features-bottom-picture{
+        right: 150px;
+    }
+}
+
 @media(min-width: 768px) and (max-width: 991px) {
     .container {
         width: 700px;
@@ -894,11 +915,49 @@ a {
         font-size: 81px;
     }
 
-    .we-are-the-best .the-best-items .the-best-item {
-        width: 50%;
-    }
-
     .we-are-the-best .the-best-items .the-best-item .the-best-paragraph {
         padding: 0 10px;
+    }
+}
+
+@media(min-width: 481px) and (max-width: 767px){
+    .container {
+        width: 450px;
+    }
+
+    .top-header {
+        background-position: center;
+    } 
+
+    .top-header .top-text .top-text1{
+        font-size: 30px;
+    }
+
+    .top-header .top-text .top-text2{
+        font-size: 60px;
+    }
+
+    .top-header .top-text .top-text3{
+        font-size: 12px;
+    }
+
+    .we-are-the-best .the-best-items .the-best-item{
+        width: 40%;
+    }
+
+    .easy-to-acces .left-smartfon img {
+        width: 150px;
+    }
+    
+    .our-services .our-services-items{
+        flex-wrap: wrap;
+    }
+
+    .meet-our-team .meet-our-team-items{
+        flex-wrap: wrap;
+    }
+
+    .meet-our-team .meet-our-team-items .meet-our-team-item {
+        width: 51%;
     }
 }
