@@ -783,16 +783,18 @@ a {
 
 .footer .footer-form .footer-message .footer-message-captcha .footer-message-captcha-left {
     border-radius: 3px;
-    font-family: 'OpenSans';
-    font-size: 14px;
-    color: #fff;
     padding: 0 33px 0 33px;
     margin-right: 15px;
     border: 1px solid #d4d4d4;
-    line-height: 48px;
-    text-align: center;
+    
     width: 170px;
 
+}
+.footer .footer-form .footer-message .footer-message-captcha .footer-message-captcha-left .captcha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .footer .footer-form .footer-message .footer-message-captcha .footer-message-captcha-right {
