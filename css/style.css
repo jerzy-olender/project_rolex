@@ -888,6 +888,11 @@ a {
 }
 
 @media(max-width: 991px){
+    .we-are-the-best .the-best-items{
+        width: 100%;
+        margin-left: 0;
+    }
+
     .we-are-the-best .the-best-items .the-best-item {
         width: 47%;
         padding: 20px 10px;
@@ -902,29 +907,11 @@ a {
     }
 }
 
-@media(min-width: 768px) and (max-width: 991px) {
-    .container {
-        width: 700px;
+@media(max-width: 768px){
+    .container{
+        width: 100%;
+        padding: 0 20px;
     }
-
-    .top-header {
-        background-position: center;
-    }
-
-    .top-header .top-text .top-text2 {
-        font-size: 81px;
-    }
-
-    .we-are-the-best .the-best-items .the-best-item .the-best-paragraph {
-        padding: 0 10px;
-    }
-}
-
-@media(min-width: 481px) and (max-width: 767px){
-    .container {
-        width: 450px;
-    }
-
     .top-header {
         background-position: center;
     } 
@@ -946,11 +933,27 @@ a {
     }
 
     .easy-to-acces .left-smartfon img {
-        width: 150px;
+        width: 130px;
     }
     
     .our-services .our-services-items{
         flex-wrap: wrap;
+    }
+
+    .features .features-bottom-picture-box .features-bottom-picture {
+        right: 100px;
+        bottom: 170px;
+        width: 250px;
+    }
+
+    .why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items{
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .why-work-with-us .why-work-with-us-wrapper .why-work-with-us-items .why-work-with-us-item{
+        width: 60%;
     }
 
     .meet-our-team .meet-our-team-items{
@@ -959,5 +962,68 @@ a {
 
     .meet-our-team .meet-our-team-items .meet-our-team-item {
         width: 51%;
+        margin-bottom: 20px;
+    }
+
+    .footer .footer-icons .footer-icons-fonts{
+        width: 35%;
     }
 }
+
+@media(max-width: 706px){
+    .we-are-the-best .the-best-items{
+        justify-content: center
+    } 
+    .we-are-the-best .the-best-items .the-best-item{
+        width: 50%;
+    }
+}
+
+
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 700px;
+    }
+
+    .top-header {
+        background-position: center;
+    }
+
+    .top-header .top-text .top-text2 {
+        font-size: 81px;
+    }
+
+    .we-are-the-best .the-best-items .the-best-item .the-best-paragraph {
+        padding: 0 10px;
+    }
+}
+
+@media(max-width: 480px){
+    .easy-to-acces .left-smartfon img{
+        display: none;
+    }
+
+    .top-header .top-text .top-text2 {
+    font-size: 25px;
+    }
+
+    .top-header .top-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .features .features-bottom-picture-box .features-bottom-picture{
+        display: none;
+    }
+
+    .meet-our-team .meet-our-team-items .meet-our-team-item{
+        width: 80%;
+    }
+
+    .footer .footer-form .footer-message .footer-message-bottom .footer-message-submit{
+        margin: 0 20px;
+    }
+
+}
+
+
