@@ -882,7 +882,7 @@ a {
     background-color: #131313;
 }
 
-@media(max-width: 1240px) {
+@media(max-width: 1280px) {
     .easy-to-acces .left-smartfon img {
         width: 200px;
         left: -4px;
