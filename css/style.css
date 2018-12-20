@@ -220,6 +220,7 @@ a {
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    min-width: 230px;
 }
 
 .we-are-the-best .the-best-items .the-best-item .item-font {
